@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accounts | register yourself</title>
+    <link rel="stylesheet" href="./res.css" />
+  </head>
+  <body>
+    <h1>registration form</h1>
+    <form action="" method="POST">
+      <fieldset>
+        <legend>personal info:</legend>
+        <div>
+          <label for="username">username: </label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div>
+          <label for="email">email: </label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div>
+          <label for="password">password: </label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div>
+          <label for="gender">gender: </label>
+          <input type="radio" name="gender" />male
+          <input type="radio" name="gender" />female
+          <input type="radio" name="gender" />other
+        </div>
+        <div>
+          <label for="date">d.o.b: </label>
+          <input type="date" />
+        </div>
+        <div>
+          <label for="mobile">mobile no: </label>
+          <input type="tel" />
+        </div>
+        <div>
+          <label for="idp">id proof: </label>
+          <select name="" id="">
+            <option value="">--select--</option>
+            <option value="aadhar">aadhar</option>
+            <option value="pan card">pan</option>
+            <option value="passport">passport</option>
+            <option value="voter id">voter id</option>
+          </select>
+        </div>
+        <div>
+          address: <br />
+          <textarea
+            name="address"
+            id=""
+            cols="30"
+            rows="10"
+            style="margin: 0px; width: 688px; height: 90px"
+          >
+          </textarea>
+        </div>
+        <div>
+          <label for="lang">languages known: </label>
+          <input type="checkbox" name="lang" />HTML
+          <input type="checkbox" name="lang" />CSS
+          <input type="checkbox" name="lang" />JS
+          <input type="checkbox" name="lang" />PY
+        </div>
+        <div>
+          <label for="exp">experience: </label>
+          <input type="range" name="exp" min="0" max="50" step="1" />
+        </div>
+        <div>
+          others: <br />
+          <textarea
+            name="others"
+            id=""
+            cols="30"
+            rows="10"
+            style="margin: 0px; width: 688px; height: 90px"
+          >
+                  anything special about yourself
+                          </textarea
+          >
+        </div>
+        <div>
+          <input type="submit" value="submit" />
+        </div>
+      </fieldset>
+    </form>
+
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
